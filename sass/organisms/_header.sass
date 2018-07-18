@@ -1,0 +1,62 @@
+header 
+	+clearfix 
+	min-height: 40px
+	+gradient(90deg, $cinza-claro, $preto)
+
+	//background:
+		//image: url(../images/alaikke-bg-main.png)
+		//position: 
+		//repeat: no-repeat
+		//attachment:
+		//size: 
+		//color: black
+	
+	.logo
+		img 
+			float: left
+			width: 100px	
+			margin: 20px 15px 0 15px 
+	.links
+		float: right
+		margin: 10px 0 10px 0
+		nav,
+		.social 
+			display: inline-block
+			+breakpoint ($tablet)
+				display: none 
+			+breakpoint ($celular)
+				display: none 	
+		nav 
+			margin-right: 0px
+
+			ul 
+				li 
+					display: inline-block
+					margin: 0 5px 0 0
+					
+					a 
+					 text-transform: uppercase
+					 text-align: right
+					 color: #ffff
+					 
+		.social
+			margin-right: 10px
+			li
+				display: inline-block
+				margin: 5px
+				a 
+					color: white 
+					//font-size: 18px
+					display: block
+					border: 1.4px solid #ffffff
+					padding: 7px 
+					width: 30px
+					height: 30px
+					line-height: 12px
+					text-align: center !important
+					+border-radius (120px)
+					
+					
+
+	h1 
+	p 		

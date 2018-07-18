@@ -10,7 +10,8 @@
     "gulp-watch": "^5.0.0",
     "jquery": "^3.3.1",
     "popper": "^1.0.1",
-    "popper.js": "^1.14.3"
+    "popper.js": "^1.14.3",
+    "sass-flex-mixin": "^1.0.3"
   },
   "devDependencies": {
     "gulp-yarn": "^2.0.0"
