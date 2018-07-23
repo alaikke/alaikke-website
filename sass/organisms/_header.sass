@@ -1,0 +1,51 @@
+header 
+	+clearfix 
+	min-height: 80px
+	+gradient(90deg, $cinza-claro, $preto)
+ 
+	.logo
+		img 
+			float: left
+			width: 100px	
+			margin: 25px 15px 0 15px 
+	
+	.links
+		float: right
+		margin: 20px 0 10px 0
+		nav,
+		.social 
+			display: inline-block
+			+breakpoint ($tablet)
+				display: none 
+			+breakpoint ($celular)
+				display: none 	
+
+			ul 
+				li 
+					display: inline-block
+					margin: 0 15px 0 0
+					
+					a 
+					 text-transform: uppercase
+					 text-align: right
+					 color: #ffff
+					 
+		.social
+			margin-right: 10px
+			li
+				display: inline-block
+				margin: 5px
+				a 
+					color: white 
+					display: block
+					border: 1.4px solid #ffffff
+					padding: 4px 0 0 0
+					width: 30px
+					height: 30px
+					text-align: center !important
+					+border-radius (120px)
+					
+					
+
+	h1 
+	p 		
